@@ -37,11 +37,11 @@ function pesquisar() {
                 </div>
             `;
         };
-        if(!resultados){
-            resultados = "<p>Nada foi encontrado</p>"
-        }
     };
 
+    if(!resultados){
+        resultados = "<p>Nada foi encontrado</p>"
+    }
 
     // Atribui a string com os resultados ao conteúdo HTML da seção
     section.innerHTML = resultados;
